@@ -1,113 +1,130 @@
 
-# SQL Exploratory Data Analysis & Advanced Analytics
+# Customer Behavior & Sales Analysis | MySQL
 
-## 📌 Project Overview
+## Project Overview
 
-This project focuses on performing Exploratory Data Analysis (EDA) and Advanced Data Analytics using MySQL on a Customer Shopping Dataset.
+This project focuses on analyzing customer behavior, sales performance, and product trends using MySQL.
 
-The objective is to explore customer purchasing patterns, identify sales trends, analyze product and category performance, and derive meaningful business insights using SQL.
+It involves Exploratory Data Analysis (EDA) and Advanced SQL Analytics to identify meaningful business insights, understand customer purchasing patterns, evaluate product performance, and analyze sales trends.
 
-## 🎯 Project Objectives
+**This project is a continuation of my previous End-to-End Data Warehouse project.**
 
-- Explore and understand the dataset.
-- Analyze customer demographics and purchasing behaviour.
-- Identify popular product categories.
+## Project Continuation
+
+This project builds upon my previous project:
+
+**Project 1: End-to-End Data Warehouse | MySQL | Medallion Architecture**
+
+In Project 1, I designed and developed a MySQL Data Warehouse using Medallion Architecture, consisting of three layers:
+
+- **Bronze Layer:** Raw data ingestion.
+- **Silver Layer:** Data cleaning, transformation, and standardization.
+- **Gold Layer:** Business-ready views for analytical reporting.
+
+In this project, I use the Gold Layer views developed in Project 1 as the primary data source to perform Exploratory Data Analysis and Advanced Data Analytics.
+
+This demonstrates the continuation of the data workflow from data warehousing and transformation to business analysis and insight generation.
+
+**Previous Project:** [End-to-End Data Warehouse – MySQL](https://github.com/Adarsh4518/Customer-Behavior-Sales-Analytics)
+
+## Project Objectives
+
+- Explore customer, product, and sales data.
+- Analyze overall sales performance and business metrics.
+- Identify top-performing and underperforming products.
+- Understand customer distribution and purchasing behavior.
 - Analyze sales trends over time.
-- Understand repeat customer behaviour.
-- Generate actionable business insights using SQL.
+- Perform customer and product segmentation.
+- Generate business insights using SQL.
 
-## 🛠️ Tools & Technologies
+## Dataset & Data Source
 
-- Database: MySQL
-- Query Language: SQL
-- IDE: MySQL Workbench
-- Version Control: Git & GitHub
+The analysis uses business-ready Gold Layer views from the previous End-to-End Data Warehouse project.
 
-## 📂 Project Structure
+The dataset includes information related to:
+
+- Customer demographics
+- Product categories and subcategories
+- Sales transactions
+- Order dates and quantities
+- Product costs and sales amounts
+
+An exported customer report from the Gold Layer is also included in the repository for reference.
+
+## Tools & Technologies
+
+- MySQL
+- MySQL Workbench
+- SQL
+- GitHub
+
+## Exploratory Data Analysis (EDA)
+
+Performed exploratory analysis to understand the structure, distribution, and characteristics of the data.
+
+Key analysis areas:
+
+- Database exploration
+- Dimension exploration
+- Date exploration
+- Measure exploration
+- Magnitude analysis
+- Ranking analysis
+
+## Advanced Analytics
+
+Applied advanced SQL techniques to extract deeper business insights.
+
+Key analysis areas:
+
+- Change-over-time analysis
+- Cumulative analysis
+- Running totals and moving averages
+- Product performance analysis
+- Part-to-whole analysis
+- Product cost segmentation
+- Customer segmentation (VIP, Regular, and New)
+
+SQL concepts used:
+
+- Common Table Expressions (CTEs)
+- Window Functions
+- Aggregate Functions
+- LAG()
+- ROW_NUMBER()
+- CASE Statements
+- JOINs
+
+## Repository Structure
 
 ```text
-SQL-EDA-Advanced-Analytics/
+Customer-Behavior-Sales-Analytics/
 │
-├── 01_eda_analysis.sql
-├── 02_advanced_analytics.sql
-└── README.md
+├── datasets/
+│   └── Gold_Report_customers.csv
+│
+├── scripts/
+│   ├── 01_eda_analysis.sql
+│   └── 02_advanced_analytics.sql
+│
+├── reports/
+│
+├── README.md
+└── LICENSE
 ```
 
-## 🔍 Analysis Performed
+## Key Learning Outcomes
 
-### 1. Exploratory Data Analysis (EDA)
-
-File: `01_eda_analysis.sql`
-
-- Database and table exploration
-- Understanding data distribution
-- Identifying unique values
-- Analyzing customer demographics
-- Exploring product categories
-- Examining customer purchasing patterns
-
-### 2. Advanced Data Analytics
-
-File: `02_advanced_analytics.sql`
-
-- Change Over Time Analysis
-- Cumulative Analysis
-- Performance Analysis
-- Part-to-Whole Analysis
-- Customer Segmentation
-- Ranking Analysis
-
-## 💡 SQL Concepts Used
-
-- SELECT, WHERE, ORDER BY
-- GROUP BY and HAVING
-- Aggregate Functions (SUM, COUNT, AVG)
-- DISTINCT
-- CASE WHEN
-- Common Table Expressions (CTEs)
-- Subqueries
-- Window Functions
-- ROW_NUMBER(), RANK(), DENSE_RANK()
-- PARTITION BY
-- Joins
-- Date Functions
-- Running Totals and Cumulative Aggregations
-
-## 📊 Business Questions Explored
-
-- Which product categories generate the highest sales?
-- How do sales change over time?
-- Which products are purchased most frequently?
-- How does customer purchasing behaviour vary across categories?
-- Are repeat customers more likely to subscribe?
-- Which categories contribute the most to overall sales?
-
-## 📈 Key Learnings
-
-- Improved SQL querying and analytical skills.
-- Hands-on experience with advanced SQL techniques.
-- Understanding customer purchasing behaviour.
-- Applying window functions and CTEs.
-- Extracting meaningful business insights from raw data.
-
-## 🚀 How to Run the Project
-
-1. Clone or download this repository.
-2. Open MySQL Workbench.
-3. Import the Customer Shopping Dataset into MySQL.
-4. Select the appropriate database.
-5. Execute `01_eda_analysis.sql`.
-6. Execute `02_advanced_analytics.sql`.
-7. Review the query results and insights.
-
-## 👨‍💻 Author
-
-**Adarsh Sreenivasan**
-
-Electronics & Computer Science Graduate | Aspiring Data Analyst
-
-Interested in SQL, Data Analytics, Business Intelligence, and transforming data into meaningful insights.
+- Gained practical experience in SQL-based exploratory analysis.
+- Improved understanding of advanced SQL concepts.
+- Learned to analyze customer behavior and sales performance.
+- Applied analytical techniques to business-oriented problems.
+- Extended an existing Data Warehouse project into a business analytics project.
 
 ---
 
-⭐ If you find this project useful, feel free to explore the SQL scripts and share your feedback!
+**Project Type:** Data Analytics
+
+**Database:** MySQL
+
+**Author:** Adarsh Sreenivasan
