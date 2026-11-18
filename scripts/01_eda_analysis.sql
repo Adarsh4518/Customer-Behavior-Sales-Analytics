@@ -1,10 +1,23 @@
-
 -- =====================================================
--- PROJECT: CUSTOMER BEHAVIOR & SALES ANALYSIS
--- SECTION 1: DATABASE EXPLORATION
+-- PROJECT 2: CUSTOMER BEHAVIOR & SALES ANALYSIS
+-- SECTION 1: EXPLORATORY DATA ANALYSIS (EDA)
+-- DATABASE: MySQL
+--
+-- PROJECT CONTINUATION:
+-- This project is a continuation of:
+-- PROJECT 1: END-TO-END DATA WAREHOUSE
+-- TECHNOLOGY: MySQL
+-- ARCHITECTURE: MEDALLION (BRONZE, SILVER & GOLD)
+--
+-- Project 1 involved building a Data Warehouse
+-- using Bronze, Silver and Gold layers.
+--
+-- In this project, the Gold Layer views developed
+-- in Project 1 are used to perform EDA and extract
+-- meaningful business insights.
+--
 -- DATA SOURCE: GOLD LAYER VIEWS FROM PROJECT 1
 -- =====================================================
-
 
 -- 1. DATABASE EXPLORATION
 
