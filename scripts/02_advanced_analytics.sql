@@ -1,17 +1,23 @@
-
 -- =====================================================
--- PROJECT: CUSTOMER BEHAVIOR & SALES ANALYSIS
+-- PROJECT 2: CUSTOMER BEHAVIOR & SALES ANALYSIS
 -- SECTION 2: ADVANCED ANALYTICS
 -- DATABASE: MySQL
--- DATA SOURCE: GOLD LAYER FROM PROJECT 1
+--
+-- PROJECT CONTINUATION:
+-- This project is a continuation of:
+-- PROJECT 1: END-TO-END DATA WAREHOUSE
+-- TECHNOLOGY: MySQL
+-- ARCHITECTURE: MEDALLION (BRONZE, SILVER & GOLD)
+--
+-- Project 1 involved building a Data Warehouse
+-- using Bronze, Silver and Gold layers.
+--
+-- In this project, the Gold Layer views developed
+-- in Project 1 are used for advanced SQL analysis
+-- and business insight generation.
+--
+-- DATA SOURCE: GOLD LAYER VIEWS FROM PROJECT 1
 -- =====================================================
-
-
--- =====================================================
--- 1. CHANGE OVER TIME ANALYSIS
--- =====================================================
-
--- Analyze monthly sales, customers and quantity over time
 
 SELECT
     YEAR(order_date) AS order_year,
