@@ -1,3 +1,0 @@
--- Customer Behavior & Sales Analysis
--- Database Exploration
--- Source: Gold Layer View from Project 1
