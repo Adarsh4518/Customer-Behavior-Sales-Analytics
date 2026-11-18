@@ -25,7 +25,7 @@ In this project, I use the Gold Layer views developed in Project 1 as the primar
 
 This demonstrates the continuation of the data workflow from data warehousing and transformation to business analysis and insight generation.
 
-**Previous Project:** [End-to-End Data Warehouse – MySQL](https://github.com/Adarsh4518/Customer-Behavior-Sales-Analytics)
+**Previous Project:** [End-to-End Data Warehouse – MySQL] ([https://github.com/Adarsh4518/Customer-Behavior-Sales-Analytics](url))
 
 ## Project Objectives
 
